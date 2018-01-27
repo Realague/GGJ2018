@@ -198,7 +198,6 @@ GameObject:
   - component: {fileID: 700427859}
   - component: {fileID: 700427858}
   - component: {fileID: 700427857}
-  - component: {fileID: 700427856}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -225,17 +224,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2.713379, y: -93}
   m_SizeDelta: {x: 800, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &700427856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 700427854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4cf96d28b7cd4076b185698411eeecf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &700427857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +263,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 700427856}
+      - m_Target: {fileID: 2026080923}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -640,6 +628,46 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1939411996}
+--- !u!1 &2026080921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2026080922}
+  - component: {fileID: 2026080923}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2026080922
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2026080921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2026080923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2026080921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8263a0a67859248a5b660ce0d580b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2087687490
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +741,6 @@ GameObject:
   - component: {fileID: 2099809836}
   - component: {fileID: 2099809835}
   - component: {fileID: 2099809834}
-  - component: {fileID: 2099809837}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -779,7 +806,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2099809837}
+      - m_Target: {fileID: 2026080923}
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -789,7 +816,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2099809835
@@ -825,14 +852,3 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2099809832}
---- !u!114 &2099809837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2099809832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cea0f0d2deeb4fd39af52bdca56e3f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

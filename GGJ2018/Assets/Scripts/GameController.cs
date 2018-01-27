@@ -13,9 +13,8 @@ public class GameController : MonoBehaviour {
 	public Text[] playersScoreText;
 	public Color[] teamColor;
 	public int gameDuration = 180;
-
 	private float timer = -4f;
-	private Player lastPlayerWithBall;
+	private Player lastPlayerWithBall = null;
 	private int combo = 1;
 	private int[] teamNumbers = { 1, 1, 2, 2 };
 
@@ -31,7 +30,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	void SetTimer() {
-		timer += Time.deltaTime;
+		/*timer += Time.deltaTime;
 		if (timer < 0) {
 			timerText.text = "";
 			countdownText.text = Mathf.FloorToInt (Mathf.Abs (timer)).ToString ();
@@ -40,7 +39,7 @@ public class GameController : MonoBehaviour {
 		} else {
 			timerText.text =  Mathf.FloorToInt (timer).ToString ();
 			countdownText.text ="";
-		}
+		}*/
 	}
 
 	void InitTeam() {
@@ -57,7 +56,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void PlayerGetBall(Player player) {
-		if (player.id != lastPlayerWithBall.id) {
+		if (lastPlayerWithBall && player.id != lastPlayerWithBall.id) {
 			if (player.team == lastPlayerWithBall.team) {
 				player.ScorePoint (combo);
 				combo++;

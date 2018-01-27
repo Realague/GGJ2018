@@ -20,8 +20,9 @@ public class MultipleTargetCamera : MonoBehaviour {
 	}
 
 	void LateUpdate() {
-		if (targets.Count == 0)
+		if (targets.Count == 0) {
 			return;
+		}
 		Move ();
 		Zoom ();
 	}
