@@ -7,22 +7,25 @@ public class GameController : MonoBehaviour {
 	public static GameController instance;
 
 	public List<Player> players;
-
 	public Text timerText;
 	public Text countdownText;
 	public Text[] playersScoreText;
-	public Color[] teamColor;
+	public Image[] playersPanel;
+	public Color[] teamColors;
 	public int gameDuration = 180;
+
 	private float timer = -4f;
 	private Player lastPlayerWithBall = null;
 	private int combo = 1;
-	private int[] teamNumbers = { 1, 1, 2, 2 };
+	private List<int[]> teamPossibilities = new List<int[]>();
+	private int actualTeamConfig;
 
 	void Start() {
 		if (instance == null) {
 			instance = this;
 		}
 		InitTeam ();
+		StartCoroutine (SwapTeam());
 	}
 
 	void Update() {
@@ -30,29 +33,61 @@ public class GameController : MonoBehaviour {
 	}
 
 	void SetTimer() {
-		/*timer += Time.deltaTime;
+		timer += Time.deltaTime;
 		if (timer < 0) {
 			timerText.text = "";
 			countdownText.text = Mathf.FloorToInt (Mathf.Abs (timer)).ToString ();
 		} else if (timer >= gameDuration) {
 			GameFinished ();
 		} else {
-			timerText.text =  Mathf.FloorToInt (timer).ToString ();
-			countdownText.text ="";
-		}*/
-	}
-
-	void InitTeam() {
-		List<int> teams = new List<int>(teamNumbers);
-
-		for (int i = 0; i < players.Count; i++) {
-			int rand = Mathf.FloorToInt(Random.Range (0, players.Count - i));
-			players [i].team = teams [rand];
-			teams.Remove (teams [rand]);
+			timerText.text = Mathf.FloorToInt (timer).ToString ();
+			countdownText.text = "";
 		}
 	}
 
-	void SwapTeam() {
+	void InitTeam() {
+		teamPossibilities.Add (new int[]{1, 1, 2, 2});
+		teamPossibilities.Add (new int[]{2, 2, 1, 1});
+		teamPossibilities.Add (new int[]{1, 2, 2, 1});
+		teamPossibilities.Add (new int[]{2, 1, 1, 2});
+		teamPossibilities.Add (new int[]{1, 2, 1, 2});
+		teamPossibilities.Add (new int[]{2, 1, 2, 1});
+
+		actualTeamConfig = Mathf.FloorToInt(Random.Range (0, 3));
+		int randColor = Mathf.FloorToInt(Random.Range (0, 2));
+
+		for (int i = 0; i < players.Count; i++) {
+			players [i].team = teamPossibilities [actualTeamConfig * 2 + randColor][i];
+			playersPanel [i].color = teamColors [players [i].team];
+		}
+	}
+
+	IEnumerator SwapTeam() {
+		yield return new WaitForSeconds (4);
+		while (true) {
+			yield return new WaitForSeconds(30);
+			StartCoroutine (SwapTimeDisplay());
+			int randTeam = Mathf.FloorToInt(Random.Range (0, 2));
+			int randColor = Mathf.FloorToInt(Random.Range (0, 2));
+
+			for (int i = 0; i < 3; i++) {
+				if (actualTeamConfig == i) {
+					i++;
+				}
+				if (randTeam == 0) {
+					for (int j = 0; j < players.Count; j++) {
+						players [j].team = teamPossibilities [i * 2 + randColor][j];
+						playersPanel [j].color = teamColors [players [j].team];
+					}
+					actualTeamConfig = i;
+				}
+				randTeam--;
+			}
+		}
+	}
+
+	IEnumerator SwapTimeDisplay() {
+		yield return null;
 	}
 
 	public void PlayerGetBall(Player player) {
@@ -68,6 +103,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	void GameFinished() {
+		StopCoroutine ("SwapTeam");
 		Debug.Log ("GameFinished");
 	}
 }
