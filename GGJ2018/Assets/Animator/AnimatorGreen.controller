@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AnimatorBlue
+  m_Name: AnimatorGreen
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Speed
@@ -13,25 +13,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Ball
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Jump
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Punch
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -937,7 +937,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: da466f461cc13d941afaa08722bb6734, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0c51e4e2aa9923e428cc34a72be7bb7d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -966,7 +966,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1f459c98f9f1c824cbbc894928d38371, type: 2}
+  m_Motion: {fileID: 7400000, guid: 687a365c36194b345a8907cbab592cfb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -996,7 +996,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9abf1b2f1d405b042b48fe0280422974, type: 2}
+  m_Motion: {fileID: 7400000, guid: 18cf36843a32fd64d8a9e128bb6c6726, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -1025,7 +1025,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e88d0ef408169104d8382906c9524044, type: 2}
+  m_Motion: {fileID: 7400000, guid: 500f9aab8da8e1243aa9d84c962caf83, type: 2}
   m_Tag: 
   m_SpeedParameter: Speed
   m_MirrorParameter: 
@@ -1055,7 +1055,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e806631c95513fe449decfc0ad66afa6, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0b2c17ea72a499545a5f816dbffa962b, type: 2}
   m_Tag: 
   m_SpeedParameter: Speed
   m_MirrorParameter: Ball
@@ -1085,7 +1085,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 46ffdcd15178ca949a404181e19521e7, type: 2}
+  m_Motion: {fileID: 7400000, guid: 75c9a03911d30e24b8f77c4fb2f5f9cd, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
