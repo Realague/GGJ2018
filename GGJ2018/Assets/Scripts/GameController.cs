@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 	public static GameController instance;
@@ -24,6 +25,10 @@ public class GameController : MonoBehaviour {
 	private int actualTeamConfig;
 	[HideInInspector]
 	public bool canPlay = false;
+	public GameObject gameCanvas;
+	public GameObject endCanvas;
+	public Text[] playerPlaceText;
+	public Text[] playerReaderText;
 
 	void Start() {
 		if (instance == null) {
@@ -134,6 +139,30 @@ public class GameController : MonoBehaviour {
 
 	void GameFinished() {
 		StopCoroutine ("SwapTeam");
-		Debug.Log ("GameFinished");
+		gameCanvas.SetActive(false);
+		endCanvas.SetActive(true);
+		int place = 0;
+		for (int i = 0; i < players.Count; i++) {
+			for (int j = 0; j < players.Count; i++) {
+				if (j != i) {
+					if (players [i].score > players [j].score) {
+						place++;
+					}
+				}
+			}
+			playerPlaceText [i].text = (4 - place).ToString ();
+		}
+		for (int i = 0; i < players.Count; i++) {
+			if (players[i].ready) {
+				playerReaderText[i].text = "READY ?";
+			} else {
+				playerReaderText[i].text = "GO !";
+			}
+		}
+		for (int i = 0; i < players.Count; i++) {
+			if (!players[i].ready)
+				return;
+		}
+		SceneManager.LoadScene ("Level");
 	}
 }

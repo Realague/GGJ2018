@@ -14,6 +14,8 @@ public class Player : MonoBehaviour {
 	public int score;
 	[HideInInspector]
 	public bool hasBall;
+	[HideInInspector]
+	public bool ready;
 
 	void OnCollisionEnter2D(Collision2D other) {
 		if (other.gameObject.tag == "Ball" && canPickup) {
@@ -25,7 +27,17 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	void Update() {
+		if (GameController.instance.gameDuration < 0) {
+			if (Input.GetButtonDown ("Cross" + id)) {
+				ready = !ready;
+			}
+		}
+	}
+
 	public void ScorePoint(int point) {
-		score += point;
+		if (GameController.instance.gameDuration > 0) {
+			score += point;
+		}
 	}
 }
