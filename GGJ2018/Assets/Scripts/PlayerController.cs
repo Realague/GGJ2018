@@ -63,11 +63,11 @@ public class PlayerController : MonoBehaviour {
 			isGrounded = false;
 			rb.AddForce (new Vector2 (0, jumpForce));
 		}
-		if (slide && !this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Slide")) {
-			myAnimator.SetBool ("slide", true);
+		if (slide && !this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Punch")) {
+			myAnimator.SetBool ("Punch", true);
 			StartCoroutine (Punch());
-		} else if (!this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Slide")) {
-			myAnimator.SetBool ("slide", false);
+		} else if (!this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Punch")) {
+			myAnimator.SetBool ("Punch", false);
 		}
 	}
 		
