@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playRandomClips : MonoBehaviour
+public class PlayRandomClips : MonoBehaviour
 {
+    [SerializeField]
     private Object[] clipsList;
-
-     [SerializeField]
-    private string directory;
 
     private void Awake()
     {
         //load all the music in the folder specified in parameter\\
-        clipsList = Resources.LoadAll(directory, typeof(AudioClip));
         GetComponent<AudioSource>().clip = clipsList[0] as AudioClip;
     }
 
@@ -20,7 +17,7 @@ public class playRandomClips : MonoBehaviour
     {
         GetComponent<AudioSource>().Play();	
 	}
-
+    
 	private void Update()
     {
 		if (!GetComponent<AudioSource>().isPlaying)
