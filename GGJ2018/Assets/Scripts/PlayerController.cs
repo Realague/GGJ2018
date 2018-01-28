@@ -49,8 +49,7 @@ public class PlayerController : MonoBehaviour {
 
 	private void HandleMovement(float horizontal) {
 		transform.Translate(new Vector2(horizontal, 0) * Time.deltaTime * speed);
-		//player.velocity = new Vector2 (horizontal * speed, player.velocity.y);
-		myAnimator.SetFloat ("speed", Mathf.Abs(horizontal));
+		myAnimator.SetFloat ("Speed", Mathf.Abs(horizontal));
 		if (isGrounded && jump) {
 			isGrounded = false;
 			player.AddForce (new Vector2 (0, jumpForce));
@@ -58,7 +57,7 @@ public class PlayerController : MonoBehaviour {
 		if (slide && !this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Slide")) {
 			myAnimator.SetBool ("slide", true);
 		} else if (!this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Slide")) {
-			myAnimator.SetBool ("slide", false);
+//			myAnimator.SetBool ("slide", false);
 		}
 	}
 		

@@ -12,10 +12,11 @@ public class GameController : MonoBehaviour {
 	public Text[] playersScoreText;
 	public Image[] playersPanel;
 	public Color[] teamColors;
-	public int gameDuration = 180;
+	public float gameDuration = 180;
 
 	private float timer = -4f;
-	private Player lastPlayerWithBall = null;
+	[HideInInspector]
+	public Player lastPlayerWithBall = null;
 	private int combo = 1;
 	private List<int[]> teamPossibilities = new List<int[]>();
 	private int actualTeamConfig;
@@ -30,18 +31,32 @@ public class GameController : MonoBehaviour {
 
 	void Update() {
 		SetTimer ();
+		UpdateScore();
+	}
+
+	void UpdateScore() {
+		foreach (Player player in players) {
+			int zero = 4 - player.score.ToString().Length;
+			string score = "";
+			for (int i = 0; i != zero; i++) {
+				score += "0";
+			}
+			score += player.score.ToString();
+			playersScoreText[player.id].text = score;
+		}
 	}
 
 	void SetTimer() {
 		timer += Time.deltaTime;
+		gameDuration -= Time.deltaTime;
 		if (timer < 0) {
 			timerText.text = "";
 			countdownText.text = Mathf.FloorToInt (Mathf.Abs (timer)).ToString ();
-		} else if (timer >= gameDuration) {
+		} else if (gameDuration + 5 <= 0) {
 			GameFinished ();
 		} else {
-			timerText.text = Mathf.FloorToInt (timer).ToString ();
 			countdownText.text = "";
+			timerText.text = Mathf.FloorToInt (gameDuration + 5).ToString ();
 		}
 	}
 
@@ -58,7 +73,7 @@ public class GameController : MonoBehaviour {
 
 		for (int i = 0; i < players.Count; i++) {
 			players [i].team = teamPossibilities [actualTeamConfig * 2 + randColor][i];
-			playersPanel [i].color = teamColors [players [i].team];
+			playersPanel [i].color = teamColors [players [i].team - 1];
 		}
 	}
 
@@ -77,7 +92,7 @@ public class GameController : MonoBehaviour {
 				if (randTeam == 0) {
 					for (int j = 0; j < players.Count; j++) {
 						players [j].team = teamPossibilities [i * 2 + randColor][j];
-						playersPanel [j].color = teamColors [players [j].team];
+						playersPanel [j].color = teamColors [players [j].team - 1];
 					}
 					actualTeamConfig = i;
 				}
@@ -98,8 +113,8 @@ public class GameController : MonoBehaviour {
 			} else {
 				combo = 1;
 			}
-			lastPlayerWithBall = player;
 		}
+		lastPlayerWithBall = player;
 	}
 
 	void GameFinished() {

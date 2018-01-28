@@ -20,7 +20,7 @@ public class LaunchBall : MonoBehaviour {
 		if (dir.magnitude > 1) {
 			dir.Normalize();
 		}
-		if (Input.GetKeyDown(KeyCode.A)) {
+		if (Input.GetKeyDown(KeyCode.R)) {
 			LaunchBal(dir);
 		}
 	}

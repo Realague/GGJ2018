@@ -7,9 +7,11 @@ public class Player : MonoBehaviour {
 	public Color color;
 	[HideInInspector]
 	public int team;
+	[HideInInspector]
 	public bool canPickup = true;
 
-	private int score;
+	[HideInInspector]
+	public int score;
 	[HideInInspector]
 	public bool hasBall;
 
