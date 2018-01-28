@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update() {
+		myAnimator.SetBool("Ball", GetComponent<Player>().hasBall);
 		HandleInput ();
 	}
 

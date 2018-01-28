@@ -109,9 +109,11 @@ public class GameController : MonoBehaviour {
 		if (lastPlayerWithBall && player.id != lastPlayerWithBall.id) {
 			if (player.team == lastPlayerWithBall.team) {
 				player.ScorePoint (combo);
+				lastPlayerWithBall.ScorePoint (combo);
 				combo++;
 			} else {
 				combo = 1;
+				player.ScorePoint (combo);
 			}
 		}
 		lastPlayerWithBall = player;
@@ -121,4 +123,5 @@ public class GameController : MonoBehaviour {
 		StopCoroutine ("SwapTeam");
 		Debug.Log ("GameFinished");
 	}
+
 }
