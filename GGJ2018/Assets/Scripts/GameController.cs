@@ -16,7 +16,6 @@ public class GameController : MonoBehaviour {
 	public Image[] playersPanel;
 	public Color[] teamColors;
 	public float gameDuration = 180;
-
 	private float timer = -4f;
 	[HideInInspector]
 	public Player lastPlayerWithBall = null;
