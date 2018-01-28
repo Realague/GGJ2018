@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: b49092c285e0d5a4296cab822397fb8c
-timeCreated: 1517065872
+guid: 52de9e9483c3bbf438686f1073be38e9
+timeCreated: 1517098622
 licenseType: Free
 TrueTypeFontImporter:
   externalObjects: {}
@@ -10,9 +10,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Republika II Cnd
+  fontName: Digital Dismay
   fontNames:
-  - Republika II Cnd
+  - Digital Dismay
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
