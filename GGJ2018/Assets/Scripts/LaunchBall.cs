@@ -6,17 +6,18 @@ public class LaunchBall : MonoBehaviour {
 
 	private Vector2 dir = Vector2.zero;
 	private bool shoot = false;
-	private Rigidbody2D rigidbody;
 	[SerializeField]
 	private GameObject ball;
 	private GameObject newBall = null;
+	private Player player;
 
 	void Start () {
+		player = GetComponent<Player> ();
 	}
 	
 	void Update () {
-		dir.x = Input.GetAxis("Horizontal");
-		dir.y = Input.GetAxis("Vertical");
+		dir.x = Input.GetAxis("Horizontal" + player.id);
+		dir.y = Input.GetAxis("Vertical" + player.id);
 		if (dir.magnitude > 1) {
 			dir.Normalize();
 		}
@@ -26,10 +27,10 @@ public class LaunchBall : MonoBehaviour {
 	}
 
 	void LaunchBal(Vector2 dir) {
-		if (GetComponent<Player>().hasBall) {
+		if (player.hasBall) {
 			newBall = Instantiate(ball, transform.position, Quaternion.identity);
-			GetComponent<Player>().canPickup = false;
-			GetComponent<Player>().hasBall = false;
+			player.canPickup = false;
+			player.hasBall = false;
 			newBall.GetComponent<CircleCollider2D>().isTrigger = true;
 			newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(1000 * dir.x, 1000 * dir.y));
 		}

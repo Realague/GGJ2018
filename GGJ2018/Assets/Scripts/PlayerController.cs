@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
 	[SerializeField]
 	private float speed = 4f;
 	private bool facingRight;
-	private Rigidbody2D player;
+	private Rigidbody2D rb;
 	[SerializeField]
 	private Transform[] groundPoints;
 	[SerializeField]
@@ -19,31 +19,33 @@ public class PlayerController : MonoBehaviour {
 	[SerializeField]
 	private float jumpForce;
 	private bool slide;
+	private Player player;
 
 	void Start () {
 		facingRight = true;
-		player = GetComponent<Rigidbody2D> ();
+		player = GetComponent<Player> ();
+		rb = GetComponent<Rigidbody2D> ();
 		myAnimator = GetComponent<Animator> ();
 	}
 
 	void Update() {
-		myAnimator.SetBool("Ball", GetComponent<Player>().hasBall);
+		myAnimator.SetBool("Ball", player.hasBall);
 		HandleInput ();
 	}
 
 	void FixedUpdate () {
 		isGrounded = isGrounded2();
-		float horizontal = Input.GetAxis ("Horizontal");
+		float horizontal = Input.GetAxis ("Horizontal" + player.id);
 		HandleMovement (horizontal);
 		Flip (horizontal);
 		ResetValues ();
 	}
 
 	private void HandleInput() {
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetButtonDown ("Cross" + player.id)) {
 			jump = true;
 		}
-		if (Input.GetKeyDown (KeyCode.DownArrow)) {
+		if (Input.GetButtonDown ("Square" + player.id)) {
 			slide = true;
 		}
 	}
@@ -53,7 +55,7 @@ public class PlayerController : MonoBehaviour {
 		myAnimator.SetFloat ("Speed", Mathf.Abs(horizontal));
 		if (isGrounded && jump) {
 			isGrounded = false;
-			player.AddForce (new Vector2 (0, jumpForce));
+			rb.AddForce (new Vector2 (0, jumpForce));
 		}
 		if (slide && !this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Slide")) {
 			myAnimator.SetBool ("slide", true);
@@ -78,7 +80,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	private bool isGrounded2() {
-		if (player.velocity.y <= 0) {
+		if (rb.velocity.y <= 0) {
 			foreach (Transform point in groundPoints) {
 				Collider2D[] colliders = Physics2D.OverlapCircleAll (point.position, groundRadius, whatIsGround);
 				for (int i = 0; i < colliders.Length; i++) {
