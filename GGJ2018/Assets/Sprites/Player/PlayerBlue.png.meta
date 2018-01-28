@@ -1,9 +1,98 @@
 fileFormatVersion: 2
-guid: c6ff4b6c56c62d7469553b6b8b458a73
-timeCreated: 1517107984
+guid: 82544b02ed3cab9429fb9eeb27224f90
+timeCreated: 1517110962
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: PlayerBlue_0
+    21300002: PlayerBlue_1
+    21300004: PlayerBlue_2
+    21300006: PlayerBlue_3
+    21300008: PlayerBlue_4
+    21300010: PlayerBlue_5
+    21300012: PlayerBlue_6
+    21300014: PlayerBlue_7
+    21300016: PlayerBlue_8
+    21300018: PlayerBlue_9
+    21300020: PlayerBlue_10
+    21300022: PlayerBlue_11
+    21300024: PlayerBlue_12
+    21300026: PlayerBlue_13
+    21300028: PlayerBlue_14
+    21300030: PlayerBlue_15
+    21300032: PlayerBlue_16
+    21300034: PlayerBlue_17
+    21300036: PlayerBlue_18
+    21300038: PlayerBlue_19
+    21300040: PlayerBlue_20
+    21300042: PlayerBlue_21
+    21300044: PlayerBlue_22
+    21300046: PlayerBlue_23
+    21300048: PlayerBlue_24
+    21300050: PlayerBlue_25
+    21300052: PlayerBlue_26
+    21300054: PlayerBlue_27
+    21300056: PlayerBlue_28
+    21300058: PlayerBlue_29
+    21300060: PlayerBlue_30
+    21300062: PlayerBlue_31
+    21300064: PlayerBlue_32
+    21300066: PlayerBlue_33
+    21300068: PlayerBlue_34
+    21300070: PlayerBlue_35
+    21300072: PlayerBlue_36
+    21300074: PlayerBlue_37
+    21300076: PlayerBlue_38
+    21300078: PlayerBlue_39
+    21300080: PlayerBlue_40
+    21300082: PlayerBlue_41
+    21300084: PlayerBlue_42
+    21300086: PlayerBlue_43
+    21300088: PlayerBlue_44
+    21300090: PlayerBlue_45
+    21300092: PlayerBlue_46
+    21300094: PlayerBlue_47
+    21300096: PlayerBlue_48
+    21300098: PlayerBlue_49
+    21300100: PlayerBlue_50
+    21300102: PlayerBlue_51
+    21300104: PlayerBlue_52
+    21300106: PlayerBlue_53
+    21300108: PlayerBlue_54
+    21300110: PlayerBlue_55
+    21300112: PlayerBlue_56
+    21300114: PlayerBlue_57
+    21300116: PlayerBlue_58
+    21300118: PlayerBlue_59
+    21300120: PlayerBlue_60
+    21300122: PlayerBlue_61
+    21300124: PlayerBlue_62
+    21300126: PlayerBlue_63
+    21300128: PlayerBlue_64
+    21300130: PlayerBlue_65
+    21300132: PlayerBlue_66
+    21300134: PlayerBlue_67
+    21300136: PlayerBlue_68
+    21300138: PlayerBlue_69
+    21300140: PlayerBlue_70
+    21300142: PlayerBlue_71
+    21300144: PlayerBlue_72
+    21300146: PlayerBlue_73
+    21300148: PlayerBlue_74
+    21300150: PlayerBlue_75
+    21300152: PlayerBlue_76
+    21300154: PlayerBlue_77
+    21300156: PlayerBlue_78
+    21300158: PlayerBlue_79
+    21300160: PlayerBlue_80
+    21300162: PlayerBlue_81
+    21300164: PlayerBlue_82
+    21300166: PlayerBlue_83
+    21300168: PlayerBlue_84
+    21300170: PlayerBlue_85
+    21300172: PlayerBlue_86
+    21300174: PlayerBlue_87
+    21300176: PlayerBlue_88
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +129,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +155,1265 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PlayerBlue_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 3416
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2655
+        width: 316
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_2
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2651
+        width: 316
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_3
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3401
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_4
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 3394
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_5
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 2704
+        width: 257
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_6
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2799
+        width: 596
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_7
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2712
+        width: 438
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_8
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 2703
+        width: 378
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_9
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 3128
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_10
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 2790
+        width: 693
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_11
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2900
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_12
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2831
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2621
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2643
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2646
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2621
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2616
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 2641
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_19
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2641
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_20
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2616
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2618
+        width: 143
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_22
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2616
+        width: 143
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_23
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2609
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1849
+        width: 330
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_25
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2597
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_26
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2589
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_27
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1849
+        width: 323
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_28
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1899
+        width: 293
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_29
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1993
+        width: 596
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_30
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1908
+        width: 438
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_31
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 1898
+        width: 413
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_32
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 2328
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_33
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 1988
+        width: 693
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_34
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2093
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_35
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 2037
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_36
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2025
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1814
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_38
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1839
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_39
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1839
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1827
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_41
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1810
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_42
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1834
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_43
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1834
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_44
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1822
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_45
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1814
+        width: 143
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_46
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1815
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_47
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1809
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_48
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1809
+        width: 96
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_49
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1810
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_50
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1025
+        width: 317
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_51
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1761
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_52
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 1759
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_53
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1761
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_54
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 1759
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_55
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1759
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_56
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1386
+        width: 242
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_57
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1434
+        width: 329
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_58
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1380
+        width: 244
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_59
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1460
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_60
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 1008
+        width: 363
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_61
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1019
+        width: 521
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_62
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1071
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_63
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1052
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_64
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1022
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_65
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1030
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_66
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 988
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_67
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1035
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_68
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1022
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_69
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1022
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_70
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 964
+        width: 14
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_71
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 1015
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_72
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 988
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_73
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 964
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_74
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 964
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_75
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 988
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_76
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 988
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_77
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1001
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_78
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1006
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_79
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 976
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_80
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 964
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_81
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 964
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_82
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 989
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_83
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1008
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_84
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 989
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_85
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 963
+        width: 142
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_86
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 964
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_87
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 963
+        width: 144
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBlue_88
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 963
+        width: 143
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

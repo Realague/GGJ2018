@@ -1,9 +1,98 @@
 fileFormatVersion: 2
-guid: 5afb0b07bc1095f4c9819b17735a578f
-timeCreated: 1517106872
+guid: 1a0abb54257069644aba604a53f87254
+timeCreated: 1517113612
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: PlayerRed_0
+    21300002: PlayerRed_1
+    21300004: PlayerRed_2
+    21300006: PlayerRed_3
+    21300008: PlayerRed_4
+    21300010: PlayerRed_5
+    21300012: PlayerRed_6
+    21300014: PlayerRed_7
+    21300016: PlayerRed_8
+    21300018: PlayerRed_9
+    21300020: PlayerRed_10
+    21300022: PlayerRed_11
+    21300024: PlayerRed_12
+    21300026: PlayerRed_13
+    21300028: PlayerRed_14
+    21300030: PlayerRed_15
+    21300032: PlayerRed_16
+    21300034: PlayerRed_17
+    21300036: PlayerRed_18
+    21300038: PlayerRed_19
+    21300040: PlayerRed_20
+    21300042: PlayerRed_21
+    21300044: PlayerRed_22
+    21300046: PlayerRed_23
+    21300048: PlayerRed_24
+    21300050: PlayerRed_25
+    21300052: PlayerRed_26
+    21300054: PlayerRed_27
+    21300056: PlayerRed_28
+    21300058: PlayerRed_29
+    21300060: PlayerRed_30
+    21300062: PlayerRed_31
+    21300064: PlayerRed_32
+    21300066: PlayerRed_33
+    21300068: PlayerRed_34
+    21300070: PlayerRed_35
+    21300072: PlayerRed_36
+    21300074: PlayerRed_37
+    21300076: PlayerRed_38
+    21300078: PlayerRed_39
+    21300080: PlayerRed_40
+    21300082: PlayerRed_41
+    21300084: PlayerRed_42
+    21300086: PlayerRed_43
+    21300088: PlayerRed_44
+    21300090: PlayerRed_45
+    21300092: PlayerRed_46
+    21300094: PlayerRed_47
+    21300096: PlayerRed_48
+    21300098: PlayerRed_49
+    21300100: PlayerRed_50
+    21300102: PlayerRed_51
+    21300104: PlayerRed_52
+    21300106: PlayerRed_53
+    21300108: PlayerRed_54
+    21300110: PlayerRed_55
+    21300112: PlayerRed_56
+    21300114: PlayerRed_57
+    21300116: PlayerRed_58
+    21300118: PlayerRed_59
+    21300120: PlayerRed_60
+    21300122: PlayerRed_61
+    21300124: PlayerRed_62
+    21300126: PlayerRed_63
+    21300128: PlayerRed_64
+    21300130: PlayerRed_65
+    21300132: PlayerRed_66
+    21300134: PlayerRed_67
+    21300136: PlayerRed_68
+    21300138: PlayerRed_69
+    21300140: PlayerRed_70
+    21300142: PlayerRed_71
+    21300144: PlayerRed_72
+    21300146: PlayerRed_73
+    21300148: PlayerRed_74
+    21300150: PlayerRed_75
+    21300152: PlayerRed_76
+    21300154: PlayerRed_77
+    21300156: PlayerRed_78
+    21300158: PlayerRed_79
+    21300160: PlayerRed_80
+    21300162: PlayerRed_81
+    21300164: PlayerRed_82
+    21300166: PlayerRed_83
+    21300168: PlayerRed_84
+    21300170: PlayerRed_85
+    21300172: PlayerRed_86
+    21300174: PlayerRed_87
+    21300176: PlayerRed_88
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +129,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +155,1265 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PlayerRed_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 3416
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2655
+        width: 316
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_2
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2651
+        width: 316
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_3
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3401
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_4
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 3394
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_5
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 2704
+        width: 257
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_6
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2799
+        width: 596
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_7
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2712
+        width: 438
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_8
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 2703
+        width: 378
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_9
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 3128
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_10
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 2790
+        width: 693
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_11
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2900
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_12
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2831
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2621
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2643
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2646
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2621
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2616
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 2641
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_19
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2641
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_20
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2616
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2618
+        width: 143
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_22
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2616
+        width: 143
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_23
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2609
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1849
+        width: 330
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_25
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2597
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_26
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2589
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_27
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1849
+        width: 323
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_28
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1899
+        width: 293
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_29
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1993
+        width: 596
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_30
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1908
+        width: 438
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_31
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 1898
+        width: 412
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_32
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 2328
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_33
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 1988
+        width: 693
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_34
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2093
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_35
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 2037
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_36
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2025
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1814
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_38
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1839
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_39
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1839
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1827
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_41
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1810
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_42
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1834
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_43
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1834
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_44
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1822
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_45
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1814
+        width: 143
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_46
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1815
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_47
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1809
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_48
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1809
+        width: 96
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_49
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1810
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_50
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1025
+        width: 317
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_51
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1761
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_52
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 1759
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_53
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1761
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_54
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 1759
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_55
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1759
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_56
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1386
+        width: 242
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_57
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1434
+        width: 329
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_58
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1380
+        width: 244
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_59
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1460
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_60
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 1008
+        width: 363
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_61
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1019
+        width: 521
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_62
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1071
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_63
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1052
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_64
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1022
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_65
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1030
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_66
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 988
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_67
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1035
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_68
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1022
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_69
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1022
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_70
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 964
+        width: 14
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_71
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 1015
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_72
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 988
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_73
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 964
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_74
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 964
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_75
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 988
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_76
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 988
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_77
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1001
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_78
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1006
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_79
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 976
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_80
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 964
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_81
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 964
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_82
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 989
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_83
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1008
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_84
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 989
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_85
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 963
+        width: 142
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_86
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 964
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_87
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 963
+        width: 144
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerRed_88
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 963
+        width: 143
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

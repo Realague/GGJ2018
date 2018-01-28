@@ -80,7 +80,8 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	private bool isGrounded2() {
-		if (rb.velocity.y <= 0) {
+		if (player.velocity.y <= 0) {
+			myAnimator.SetBool("Jump", false);
 			foreach (Transform point in groundPoints) {
 				Collider2D[] colliders = Physics2D.OverlapCircleAll (point.position, groundRadius, whatIsGround);
 				for (int i = 0; i < colliders.Length; i++) {
@@ -89,6 +90,8 @@ public class PlayerController : MonoBehaviour {
 					}
 				}
 			}
+		} else if (!isGrounded) {
+			myAnimator.SetBool("Jump", true);
 		}
 	return (false);
 	}
