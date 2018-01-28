@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-	public int id;
+	public int id = 1;
 	public Color color;
 	[HideInInspector]
 	public int team;

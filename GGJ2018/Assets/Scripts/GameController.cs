@@ -42,7 +42,7 @@ public class GameController : MonoBehaviour {
 				score += "0";
 			}
 			score += player.score.ToString();
-			playersScoreText[player.id].text = score;
+			playersScoreText[player.id - 1].text = score;
 		}
 	}
 

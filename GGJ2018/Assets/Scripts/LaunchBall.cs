@@ -11,6 +11,8 @@ public class LaunchBall : MonoBehaviour {
 	private GameObject newBall = null;
 	private Player player;
 
+    public int strength = 500;
+
 	void Start () {
 		player = GetComponent<Player> ();
 	}
@@ -21,7 +23,7 @@ public class LaunchBall : MonoBehaviour {
 		if (dir.magnitude > 1) {
 			dir.Normalize();
 		}
-		if (Input.GetKeyDown(KeyCode.R)) {
+		if (Input.GetButtonDown("Square" + player.id)) {
 			LaunchBal(dir);
 		}
 	}
@@ -32,7 +34,7 @@ public class LaunchBall : MonoBehaviour {
 			player.canPickup = false;
 			player.hasBall = false;
 			newBall.GetComponent<CircleCollider2D>().isTrigger = true;
-			newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(1000 * dir.x, 1000 * dir.y));
+			newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(strength * dir.x, strength * dir.y));
 		}
 	}
 
