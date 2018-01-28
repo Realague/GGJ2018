@@ -18,13 +18,15 @@ public class LaunchBall : MonoBehaviour {
 	}
 	
 	void Update () {
-		dir.x = Input.GetAxis("Horizontal" + player.id);
-		dir.y = Input.GetAxis("Vertical" + player.id);
-		if (dir.magnitude > 1) {
-			dir.Normalize();
-		}
-		if (Input.GetButtonDown("Square" + player.id)) {
-			LaunchBal(dir);
+		if (GameController.instance.canPlay) {
+			dir.x = Input.GetAxis ("Horizontal" + player.id);
+			dir.y = Input.GetAxis ("Vertical" + player.id);
+			if (dir.magnitude > 1) {
+				dir.Normalize ();
+			}
+			if (Input.GetButtonDown ("Square" + player.id)) {
+				LaunchBal (dir);
+			}
 		}
 	}
 

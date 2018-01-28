@@ -20,6 +20,8 @@ public class GameController : MonoBehaviour {
 	private int combo = 1;
 	private List<int[]> teamPossibilities = new List<int[]>();
 	private int actualTeamConfig;
+	[HideInInspector]
+	public bool canPlay = false;
 
 	void Start() {
 		if (instance == null) {
@@ -57,6 +59,7 @@ public class GameController : MonoBehaviour {
 		} else {
 			countdownText.text = "";
 			timerText.text = Mathf.FloorToInt (gameDuration + 5).ToString ();
+			canPlay = true;
 		}
 	}
 
@@ -123,5 +126,4 @@ public class GameController : MonoBehaviour {
 		StopCoroutine ("SwapTeam");
 		Debug.Log ("GameFinished");
 	}
-
 }

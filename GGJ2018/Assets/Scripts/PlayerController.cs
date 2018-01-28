@@ -33,16 +33,20 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update() {
-		myAnimator.SetBool("Ball", player.hasBall);
-		HandleInput ();
+		if (GameController.instance.canPlay) {
+			myAnimator.SetBool ("Ball", player.hasBall);
+			HandleInput ();
+		}
 	}
 
 	void FixedUpdate () {
-		isGrounded = isGrounded2();
-		float horizontal = Input.GetAxis ("Horizontal" + player.id);
-		HandleMovement (horizontal);
-		Flip (horizontal);
-		ResetValues ();
+		if (GameController.instance.canPlay) {
+			isGrounded = isGrounded2 ();
+			float horizontal = Input.GetAxis ("Horizontal" + player.id);
+			HandleMovement (horizontal);
+			Flip (horizontal);
+			ResetValues ();
+		}
 	}
 
 	private void HandleInput() {
