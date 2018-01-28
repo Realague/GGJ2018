@@ -1,9 +1,97 @@
 fileFormatVersion: 2
 guid: 234b314fa52522f4cb2d43b2447de86d
-timeCreated: 1517137343
+timeCreated: 1517139341
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: PlayerGreen_0
+    21300002: PlayerGreen_1
+    21300004: PlayerGreen_2
+    21300006: PlayerGreen_3
+    21300008: PlayerGreen_4
+    21300010: PlayerGreen_5
+    21300012: PlayerGreen_6
+    21300014: PlayerGreen_7
+    21300016: PlayerGreen_8
+    21300018: PlayerGreen_9
+    21300020: PlayerGreen_10
+    21300022: PlayerGreen_11
+    21300024: PlayerGreen_12
+    21300026: PlayerGreen_13
+    21300028: PlayerGreen_14
+    21300030: PlayerGreen_15
+    21300032: PlayerGreen_16
+    21300034: PlayerGreen_17
+    21300036: PlayerGreen_18
+    21300038: PlayerGreen_19
+    21300040: PlayerGreen_20
+    21300042: PlayerGreen_21
+    21300044: PlayerGreen_22
+    21300046: PlayerGreen_23
+    21300048: PlayerGreen_24
+    21300050: PlayerGreen_25
+    21300052: PlayerGreen_26
+    21300054: PlayerGreen_27
+    21300056: PlayerGreen_28
+    21300058: PlayerGreen_29
+    21300060: PlayerGreen_30
+    21300062: PlayerGreen_31
+    21300064: PlayerGreen_32
+    21300066: PlayerGreen_33
+    21300068: PlayerGreen_34
+    21300070: PlayerGreen_35
+    21300072: PlayerGreen_36
+    21300074: PlayerGreen_37
+    21300076: PlayerGreen_38
+    21300078: PlayerGreen_39
+    21300080: PlayerGreen_40
+    21300082: PlayerGreen_41
+    21300084: PlayerGreen_42
+    21300086: PlayerGreen_43
+    21300088: PlayerGreen_44
+    21300090: PlayerGreen_45
+    21300092: PlayerGreen_46
+    21300094: PlayerGreen_47
+    21300096: PlayerGreen_48
+    21300098: PlayerGreen_49
+    21300100: PlayerGreen_50
+    21300102: PlayerGreen_51
+    21300104: PlayerGreen_52
+    21300106: PlayerGreen_53
+    21300108: PlayerGreen_54
+    21300110: PlayerGreen_55
+    21300112: PlayerGreen_56
+    21300114: PlayerGreen_57
+    21300116: PlayerGreen_58
+    21300118: PlayerGreen_59
+    21300120: PlayerGreen_60
+    21300122: PlayerGreen_61
+    21300124: PlayerGreen_62
+    21300126: PlayerGreen_63
+    21300128: PlayerGreen_64
+    21300130: PlayerGreen_65
+    21300132: PlayerGreen_66
+    21300134: PlayerGreen_67
+    21300136: PlayerGreen_68
+    21300138: PlayerGreen_69
+    21300140: PlayerGreen_70
+    21300142: PlayerGreen_71
+    21300144: PlayerGreen_72
+    21300146: PlayerGreen_73
+    21300148: PlayerGreen_74
+    21300150: PlayerGreen_75
+    21300152: PlayerGreen_76
+    21300154: PlayerGreen_77
+    21300156: PlayerGreen_78
+    21300158: PlayerGreen_79
+    21300160: PlayerGreen_80
+    21300162: PlayerGreen_81
+    21300164: PlayerGreen_82
+    21300166: PlayerGreen_83
+    21300168: PlayerGreen_84
+    21300170: PlayerGreen_85
+    21300172: PlayerGreen_86
+    21300174: PlayerGreen_87
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +128,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +154,1261 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PlayerGreen_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 3416
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2655
+        width: 316
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_2
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2651
+        width: 316
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_3
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3401
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_4
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 3394
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_5
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 2704
+        width: 257
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_6
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2799
+        width: 596
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_7
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2712
+        width: 438
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_8
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 2703
+        width: 378
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_9
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 3128
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_10
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 2790
+        width: 693
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_11
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2900
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_12
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2831
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2621
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2643
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2646
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2621
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2616
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 2641
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_19
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2641
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_20
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2617
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2618
+        width: 143
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_22
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2616
+        width: 143
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_23
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2609
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1849
+        width: 330
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_25
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2597
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_26
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2589
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_27
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1849
+        width: 323
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_28
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1899
+        width: 293
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_29
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1993
+        width: 596
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_30
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1908
+        width: 438
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_31
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 1898
+        width: 413
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_32
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 2328
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_33
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 1988
+        width: 693
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_34
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2093
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_35
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 2037
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_36
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2025
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1814
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_38
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1839
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_39
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1839
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1827
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_41
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1810
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_42
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1834
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_43
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1834
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_44
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1810
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_45
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1814
+        width: 143
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_46
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1815
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_47
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1809
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_48
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1809
+        width: 96
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_49
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1025
+        width: 317
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_50
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1761
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_51
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 1759
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_52
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1761
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_53
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1018
+        width: 521
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_54
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1759
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1386
+        width: 242
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_56
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1434
+        width: 329
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_57
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1380
+        width: 244
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_58
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1460
+        width: 285
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_59
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 1008
+        width: 363
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_60
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1071
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_61
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1052
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_62
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1022
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_63
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1030
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_64
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 988
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_65
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1035
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_66
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1022
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_67
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1022
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_68
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 964
+        width: 14
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_69
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 1015
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_70
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 988
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_71
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 964
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_72
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 988
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_73
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 976
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_74
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 964
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_75
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 1010
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_76
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1008
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_77
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 964
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_78
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 988
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_79
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1001
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_80
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1006
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_81
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 964
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_82
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 989
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_83
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 989
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_84
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 963
+        width: 142
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_85
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 964
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_86
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 963
+        width: 144
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerGreen_87
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 963
+        width: 143
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
