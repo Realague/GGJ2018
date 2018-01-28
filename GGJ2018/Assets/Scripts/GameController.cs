@@ -28,8 +28,9 @@ public class GameController : MonoBehaviour {
 	public GameObject endCanvas;
 	public Text[] playerPlaceText;
 	public Text[] playerReaderText;
+    public Text[] resumeScoreText;
 
-	void Start() {
+    void Start() {
 		if (instance == null) {
 			instance = this;
 		}
@@ -140,25 +141,34 @@ public class GameController : MonoBehaviour {
 		StopCoroutine ("SwapTeam");
 		gameCanvas.SetActive(false);
 		endCanvas.SetActive(true);
-		int place = 0;
-		for (int i = 0; i < players.Count; i++) {
-			for (int j = 0; j < players.Count; i++) {
+		for (int i = 0; i < players.Count; i++)
+        {
+            int place = 0;
+            for (int j = 0; j < players.Count; j++) {
 				if (j != i) {
-					if (players [i].score > players [j].score) {
+					if (players [i].score >= players [j].score) {
 						place++;
 					}
 				}
 			}
 			playerPlaceText [i].text = (4 - place).ToString ();
-		}
-		for (int i = 0; i < players.Count; i++) {
-			if (players[i].ready) {
-				playerReaderText[i].text = "READY ?";
-			} else {
-				playerReaderText[i].text = "GO !";
-			}
-		}
-		for (int i = 0; i < players.Count; i++) {
+        }
+        for (int i = 0; i < players.Count; i++)
+        {
+            if (!players[i].ready)
+            {
+                playerReaderText[i].text = "READY ?";
+            }
+            else
+            {
+                playerReaderText[i].text = "GO !";
+            }
+        }
+        for (int i = 0; i < players.Count; i++)
+        {
+            resumeScoreText[i].text = players[i].score.ToString() + " pts";
+        }
+        for (int i = 0; i < players.Count; i++) {
 			if (!players[i].ready)
 				return;
 		}
