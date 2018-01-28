@@ -11,6 +11,7 @@ public class PlayRandomClips : MonoBehaviour
     {
         //load all the music in the folder specified in parameter\\
         GetComponent<AudioSource>().clip = clipsList[0] as AudioClip;
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
