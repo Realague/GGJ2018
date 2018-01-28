@@ -43,7 +43,8 @@ public class PlayerController : MonoBehaviour {
 		if (GameController.instance.canPlay) {
 			isGrounded = isGrounded2 ();
 			float horizontal = Input.GetAxis ("Horizontal" + player.id);
-			HandleMovement (horizontal);
+            float vertical = Input.GetAxis("Vertical" + player.id);
+            HandleMovement (horizontal, vertical);
 			Flip (horizontal);
 			ResetValues ();
 		}
@@ -60,8 +61,8 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
-	private void HandleMovement(float horizontal) {
-		transform.Translate(new Vector2(horizontal, 0) * Time.deltaTime * speed);
+	private void HandleMovement(float horizontal, float vertical) {
+		transform.Translate(new Vector2(horizontal, vertical < 0 ? vertical : 0) * Time.deltaTime * speed);
 		myAnimator.SetFloat ("Speed", Mathf.Abs(horizontal));
 		if (isGrounded && jump) {
 			isGrounded = false;
@@ -129,7 +130,7 @@ public class PlayerController : MonoBehaviour {
 	public void ReceivePunch(PlayerController other) {
 		if (player.hasBall) {
 			GetComponent<LaunchBall>().ReleaseBall();
-		}
-		rb.AddForce ((transform.position - other.transform.position) * punchForce);
+        }
+        rb.AddForce ((transform.position - other.transform.position) * punchForce);
 	}
 }

@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 	public static GameController instance;
+    public static string[] startMessages = { "Ready!", "Set!", "GO!" };
 
 	public List<Player> players;
+	public Text swapText;
 	public Text timerText;
 	public Text countdownText;
 	public Text[] playersScoreText;
@@ -27,7 +29,8 @@ public class GameController : MonoBehaviour {
 		if (instance == null) {
 			instance = this;
 		}
-		InitTeam ();
+        swapText.transform.position += (new Vector3(-10000, 0, 0));
+        InitTeam();
 		StartCoroutine (SwapTeam());
 	}
 
@@ -51,9 +54,14 @@ public class GameController : MonoBehaviour {
 	void SetTimer() {
 		timer += Time.deltaTime;
 		gameDuration -= Time.deltaTime;
-		if (timer < 0) {
+        if (timer < -3f) {
+            countdownText.text = "";
+            timerText.text = "";
+            return;
+        }
+		if (timer <= 0) {
 			timerText.text = "";
-			countdownText.text = Mathf.FloorToInt (Mathf.Abs (timer)).ToString ();
+			countdownText.text = startMessages[2 - Mathf.FloorToInt (Mathf.Abs (timer))];
 		} else if (gameDuration + 5 <= 0) {
 			GameFinished ();
 		} else {
@@ -105,10 +113,12 @@ public class GameController : MonoBehaviour {
 	}
 
 	IEnumerator SwapTimeDisplay() {
-		yield return null;
-	}
+        swapText.transform.position += (new Vector3(10000, 0, 0));
+		yield return new WaitForSeconds(3);
+        swapText.transform.position += (new Vector3(-10000, 0, 0));
+    }
 
-	public void PlayerGetBall(Player player) {
+    public void PlayerGetBall(Player player) {
 		if (lastPlayerWithBall && player.id != lastPlayerWithBall.id) {
 			if (player.team == lastPlayerWithBall.team) {
 				player.ScorePoint (combo);
