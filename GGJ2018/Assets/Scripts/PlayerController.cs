@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour {
 	private float jumpForce;
 	private bool slide;
 	private Player player;
+	private bool punch;
+	public float cdPunch;
+	private bool canPunch = true;
+	public float punchForce = 200f;
 
 	void Start () {
 		facingRight = true;
@@ -46,7 +50,9 @@ public class PlayerController : MonoBehaviour {
 			jump = true;
 		}
 		if (Input.GetButtonDown ("Square" + player.id)) {
-			slide = true;
+			if (!player.hasBall && canPunch) {
+				slide = true;
+			}
 		}
 	}
 
@@ -59,8 +65,9 @@ public class PlayerController : MonoBehaviour {
 		}
 		if (slide && !this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Slide")) {
 			myAnimator.SetBool ("slide", true);
+			StartCoroutine (Punch());
 		} else if (!this.myAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Slide")) {
-//			myAnimator.SetBool ("slide", false);
+			myAnimator.SetBool ("slide", false);
 		}
 	}
 		
@@ -94,5 +101,31 @@ public class PlayerController : MonoBehaviour {
 			myAnimator.SetBool("Jump", true);
 		}
 	return (false);
+	}
+
+	IEnumerator Punch() {
+		canPunch = false;
+		yield return new WaitForSeconds (0.125f);
+		punch = true;
+		yield return new WaitForSeconds (0.125f);
+		punch = false;
+		yield return new WaitForSeconds (cdPunch);
+		canPunch = true;
+	}
+
+	void OnTriggerStay2D(Collider2D other) {
+		if (punch) {
+			if (other.tag == "Player") {
+				other.GetComponent<PlayerController>().ReceivePunch (this);
+			}
+			punch = false;
+		}
+	}
+
+	public void ReceivePunch(PlayerController other) {
+		if (player.hasBall) {
+			GetComponent<LaunchBall>().ReleaseBall();
+		}
+		rb.AddForce ((transform.position - other.transform.position) * punchForce);
 	}
 }

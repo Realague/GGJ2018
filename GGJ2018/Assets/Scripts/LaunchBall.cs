@@ -28,7 +28,7 @@ public class LaunchBall : MonoBehaviour {
 		}
 	}
 
-	void LaunchBal(Vector2 dir) {
+	public void LaunchBal(Vector2 dir) {
 		if (player.hasBall) {
 			newBall = Instantiate(ball, transform.position, Quaternion.identity);
 			player.canPickup = false;
@@ -42,6 +42,16 @@ public class LaunchBall : MonoBehaviour {
 		if (newBall) {
 			newBall.GetComponent<CircleCollider2D>().isTrigger = false;
 		}
-    }
+	}
+
+	public void ReleaseBall() {
+		if (player.hasBall) {
+			newBall = Instantiate(ball, transform.position, Quaternion.identity);
+			player.canPickup = false;
+			player.hasBall = false;
+			newBall.GetComponent<CircleCollider2D>().isTrigger = true;
+			newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, strength / 2));
+		}
+	}
 
 }
