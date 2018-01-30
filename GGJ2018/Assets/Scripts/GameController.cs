@@ -29,6 +29,7 @@ public class GameController : MonoBehaviour {
 	public Text[] playerPlaceText;
 	public Text[] playerReaderText;
     public Text[] resumeScoreText;
+	public SpriteRenderer[] cursors;
 
     void Start() {
 		if (instance == null) {
@@ -90,6 +91,7 @@ public class GameController : MonoBehaviour {
 		for (int i = 0; i < players.Count; i++) {
 			players [i].team = teamPossibilities [actualTeamConfig * 2 + randColor][i];
 			playersPanel [i].color = teamColors [players [i].team - 1];
+			cursors[i].color = teamColors [players [i].team - 1];
 		}
 	}
 
@@ -109,6 +111,7 @@ public class GameController : MonoBehaviour {
 					for (int j = 0; j < players.Count; j++) {
 						players [j].team = teamPossibilities [i * 2 + randColor][j];
 						playersPanel [j].color = teamColors [players [j].team - 1];
+						cursors[j].color = teamColors [players [j].team - 1];
 					}
 					actualTeamConfig = i;
 				}
