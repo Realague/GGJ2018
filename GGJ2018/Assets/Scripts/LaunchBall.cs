@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LaunchBall : MonoBehaviour {
 
+	public AudioSource audioSource;
+	public AudioClip[] punchSounds;
 	private Vector2 dir = Vector2.zero;
 	private bool shoot = false;
 	[SerializeField]
@@ -34,15 +36,12 @@ public class LaunchBall : MonoBehaviour {
 		if (player.hasBall) {
 			newBall = Instantiate(ball, transform.position, Quaternion.identity);
 			player.canPickup = false;
+			StartCoroutine (CanPickUpAgain ());
 			player.hasBall = false;
 			newBall.GetComponent<CircleCollider2D>().isTrigger = true;
 			newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(strength * dir.x, strength * dir.y));
-		}
-	}
-
-	void OnTriggerExit2D(Collider2D other) {
-		if (newBall) {
-			newBall.GetComponent<CircleCollider2D>().isTrigger = false;
+			var tmpColor = GameController.instance.teamColors [player.team - 1];
+			newBall.GetComponentsInChildren<SpriteRenderer>()[1].color = new Color(tmpColor.r, tmpColor.g, tmpColor.b, 255);
 		}
 	}
 
@@ -50,10 +49,25 @@ public class LaunchBall : MonoBehaviour {
 		if (player.hasBall) {
 			newBall = Instantiate(ball, transform.position, Quaternion.identity);
 			player.canPickup = false;
+			StartCoroutine (CanPickUpAgain ());
 			player.hasBall = false;
 			newBall.GetComponent<CircleCollider2D>().isTrigger = true;
 			newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, strength / 2));
+			var tmpColor = GameController.instance.teamColors [player.team - 1];
+			newBall.GetComponentsInChildren<SpriteRenderer>()[1].color = new Color(tmpColor.r, tmpColor.g, tmpColor.b, 255);
+			audioSource.clip = punchSounds[Mathf.FloorToInt(Random.Range(0, punchSounds.Length))];
+			audioSource.Play ();
 		}
 	}
 
+	IEnumerator CanPickUpAgain() {
+		yield return new WaitForSeconds (0.2f);
+		player.canPickup = true;
+	}
+
+	void OnTriggerExit2D(Collider2D other) { 
+		if (newBall) { 
+			newBall.GetComponent<CircleCollider2D> ().isTrigger = false;
+		}
+	}
 }

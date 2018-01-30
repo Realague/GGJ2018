@@ -17,13 +17,11 @@ public class Player : MonoBehaviour {
 	[HideInInspector]
 	public bool ready;
 
-	void OnCollisionEnter2D(Collision2D other) {
+	void OnTriggerEnter2D(Collider2D other) {
 		if (other.gameObject.tag == "Ball" && canPickup) {
 			hasBall = true;
 			GameController.instance.PlayerGetBall (this);
 			Destroy(other.gameObject);
-		} else if (!canPickup) {
-			canPickup = true;
 		}
 	}
 
