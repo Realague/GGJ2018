@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DisplayPlayer.cs" />
+     <Compile Include="Assets\Scripts\Flash.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\LaunchBall.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayRandomClips.cs" />
      <Compile Include="Assets\Scripts\PowerUp.cs" />
+     <None Include="Assets\Shaders\silouhette.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

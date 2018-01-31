@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour {
 	public float cdPunch;
 	private bool canPunch = true;
 	public float punchForce = 200f;
+	public RectTransform canvasPlayer;
 
 	void Start () {
 		facingRight = true;
@@ -83,6 +84,9 @@ public class PlayerController : MonoBehaviour {
 			Vector3 theScale = transform.localScale;
 			theScale.x *= -1;
 			transform.localScale = theScale;
+			theScale = canvasPlayer.localScale;
+			theScale.x *= -1;
+			canvasPlayer.localScale = theScale;
 		}
 	}
 
@@ -131,6 +135,5 @@ public class PlayerController : MonoBehaviour {
 		if (player.hasBall) {
 			GetComponent<LaunchBall>().ReleaseBall();
         }
-        rb.AddForce ((transform.position - other.transform.position) * punchForce);
 	}
 }

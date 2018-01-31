@@ -30,6 +30,11 @@ public class GameController : MonoBehaviour {
 	public Text[] playerReaderText;
     public Text[] resumeScoreText;
 	public SpriteRenderer[] cursors;
+	public Flash flashRef;
+	public AudioClip swapTimeAudio;
+	public AudioClip readyAudio;
+	public AudioClip setAudio;
+	public AudioClip goAudio;
 
     void Start() {
 		if (instance == null) {
@@ -47,11 +52,7 @@ public class GameController : MonoBehaviour {
 
 	void UpdateScore() {
 		foreach (Player player in players) {
-			int zero = 4 - player.score.ToString().Length;
 			string score = "";
-			for (int i = 0; i != zero; i++) {
-				score += "0";
-			}
 			score += player.score.ToString();
 			playersScoreText[player.id - 1].text = score;
 		}
@@ -96,9 +97,21 @@ public class GameController : MonoBehaviour {
 	}
 
 	IEnumerator SwapTeam() {
-		yield return new WaitForSeconds (4);
+		var sound = GetComponent<AudioSource> ();
+		yield return new WaitForSeconds (1);
+		sound.clip = readyAudio;
+		sound.Play ();
+		yield return new WaitForSeconds (1);
+		sound.clip = setAudio;
+		sound.Play ();
+		yield return new WaitForSeconds (1);
+		sound.clip = goAudio;
+		sound.Play ();
+		yield return new WaitForSeconds (1);
+		sound.clip = swapTimeAudio;
 		while (true) {
 			yield return new WaitForSeconds(30);
+			sound.Play ();
 			StartCoroutine (SwapTimeDisplay());
 			int randTeam = Mathf.FloorToInt(Random.Range (0, 2));
 			int randColor = Mathf.FloorToInt(Random.Range (0, 2));
@@ -117,6 +130,7 @@ public class GameController : MonoBehaviour {
 				}
 				randTeam--;
 			}
+			flashRef.GetFlashed ();
 		}
 	}
 
@@ -126,7 +140,11 @@ public class GameController : MonoBehaviour {
         swapText.transform.position += (new Vector3(-10000, 0, 0));
     }
 
-    public void PlayerGetBall(Player player) {
+	public void PlayerGetBall(Player player) {
+		if (lastPlayerWithBall)
+			cursors[lastPlayerWithBall.id - 1].color = teamColors [lastPlayerWithBall.team - 1];
+		var tmpColor = teamColors [player.team - 1];
+		cursors[player.id - 1].color = new Color(tmpColor.r, tmpColor.g, tmpColor.b, 1);
 		if (lastPlayerWithBall && player.id != lastPlayerWithBall.id) {
 			if (player.team == lastPlayerWithBall.team) {
 				player.ScorePoint (combo);
